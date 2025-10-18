@@ -1,0 +1,42 @@
+[project]
+name = "ocr_public"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yixiao Huang", email = "yixiaoh@berkeley.edu" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.5.0",
+    "einops",
+    "transformers",
+    "accelerate",
+    "xarray",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "lets-plot",
+    "python-dotenv",
+    "datasets>=3.5.0",
+    "rich>=13.9.4",
+    "typeguard==4.4.2",
+    "ipykernel>=6.29.5",
+    "scipy>=1.15.2",
+    "wandb>=0.19.11",
+    "torchtune>=0.6.1",
+    "torchao>=0.10.0",
+    "peft>=0.15.2",
+    "ace-tools>=0.0",
+    "ai2-olmo>=0.6.0",
+    "baukit",
+    "jaxtyping>=0.3.2",
+    "einsum>=0.3.0",
+    "tyro>=0.9.26",
+    "bidict>=0.23.1",
+    "jax>=0.5.3",
+]
+
+[tool.uv.sources]
+baukit = { git = "https://github.com/davidbau/baukit" }
